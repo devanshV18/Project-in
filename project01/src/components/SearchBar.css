@@ -1,0 +1,55 @@
+.input-wrap{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 570px;
+    border: 1px solid rgb(31, 142, 34);
+    width: 25%;
+    justify-content: space-evenly;
+    height: 2.5rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #ddd;
+}
+
+input{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    font-size: 1.25 rem;
+    margin-left: 8px;
+    border: none;
+    padding: 3px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#search-icon{
+    margin-left: 8px;
+}
+
+.button-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+#srch-btn{
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 8%;
+    background-color: rgb(39, 170, 39);
+    outline: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 2px;
+
+}
+#srch-btn:hover{
+    background-color: green;
+}
